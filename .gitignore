@@ -36,8 +36,6 @@ compiler/.harness2/tsconfig.json
 compiler/.harness2/next-env.d.ts
 
 # Service layer (env + per-worker build harnesses + local artifacts)
-.env
-.env.*
 !.env.example
 packages/*/dist/
 packages/*/.turbo/
@@ -50,3 +48,8 @@ compiler/output-final/
 compiler/.bridge/*.pem
 
 compiler/compiler/
+config.bat
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

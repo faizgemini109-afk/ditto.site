@@ -19,8 +19,8 @@
     ".": "./src/index.ts"
   },
   "scripts": {
-    "dev": "tsx watch src/worker.ts",
-    "start": "tsx src/worker.ts",
+    "dev": "node init && tsx watch src/worker.ts",
+    "start": "node init && tsx src/worker.ts",
     "test": "node --import tsx --test test/*.test.ts",
     "typecheck": "tsc --noEmit"
   },
